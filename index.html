@@ -1,0 +1,79 @@
+<! Doctype html>
+
+<html>
+    <head>
+       <style>
+           body {
+               background-color: cyan;
+               font-family: Sans-Serif;
+           }
+       </style> 
+    </head>
+    <header>
+        <title>3 Functions</title>
+    </header>
+    <body>
+      <div>
+          <h1>3 Javascript functions</h1>
+          <p>This program shows 3 Javascript functions.</p>
+      </div>
+      <div>
+          <button type="button" onclick="add()">Add</button> <br><br>
+          
+          <button type="button" onclick="minus()">Subtract</button>
+      </div> <br><br>
+        
+       <button type="button" onclick="multiply()">Multiply</button>
+        
+    </body>
+    <script>
+        
+        //function add
+
+function add(){
+	let num1 = parseFloat(window.prompt("Enter the first number: "));
+		let num2 = parseFloat(window.prompt("Enter the second number: "));
+			
+			let num3;
+			
+			num3 = num1 + num2; 
+			
+			window.alert("The sum is : "+ num3);
+		
+}
+
+
+
+  //function minus
+
+function minus(){
+	let num1 = parseFloat(window.prompt("Enter the first number: "));
+		let num2 = parseFloat(window.prompt("Enter the second number: "));
+			
+			let num3;
+			
+			num3 = num1 - num2; 
+			
+			window.alert("The difference is : " + num3);
+		
+} 
+
+
+
+//function
+
+function multiply(){
+	let num1 = parseFloat(window.prompt("Enter the first number: "));
+		let num2 = parseFloat(window.prompt("Enter the second number: "));
+			
+			let num3;
+			
+			num3 = num1 * num2; 
+			
+			window.alert("The product is : " + num3);
+		
+}
+    </script>
+    
+    
+   </html>
